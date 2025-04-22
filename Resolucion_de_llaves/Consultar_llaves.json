@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "9cb06a0f-5a6e-4c87-800a-1648b8eb4329",
-		"name": "Consultar llaves",
+		"_postman_id": "631c9416-1fff-4ffc-a3f7-be12297734e4",
+		"name": "Consultar llaves Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-9cb06a0f-5a6e-4c87-800a-1648b8eb4329?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-631c9416-1fff-4ffc-a3f7-be12297734e4?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -734,14 +734,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n       \"firstName\": \"SERGIO\",\r\n       \"secondName\": \"ANDRES\"\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/wW9hkwfJPtR4FCDSorfQk8qyA6CcgiKXuD",
+					"raw": "{{url}}/v1/signer/{{handle}}",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"wW9hkwfJPtR4FCDSorfQk8qyA6CcgiKXuD"
+						"{{handle}}"
 					]
 				}
 			},
