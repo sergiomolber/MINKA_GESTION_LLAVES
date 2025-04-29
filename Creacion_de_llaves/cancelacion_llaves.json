@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "b0b62420-2f6d-4a75-bb77-af913ae38fd2",
+		"_postman_id": "18b752c0-8dc5-40b8-b632-9f18b5982546",
 		"name": "Cancelacion de llaves",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-b0b62420-2f6d-4a75-bb77-af913ae38fd2?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-18b752c0-8dc5-40b8-b632-9f18b5982546?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -292,7 +292,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"labels\": { \r\n\t   \"status\": \"INACTIVE\"\r\n   }\r\n }"
+					"raw": "{\r\n   \"labels\": { \r\n\t   \"status\": \"INACTIVE\",\r\n       \"AllowSecIDUpdate\":\"Y\"\r\n   }\r\n }"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer/{{handle}}",
@@ -593,7 +593,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"labels\": { \r\n\t   \"status\": \"INACTIVE\"\r\n   }\r\n }"
+					"raw": "{\r\n   \"labels\": { \r\n\t   \"status\": \"INACTIVE\",\r\n         \"AllowSecIDUpdate\":\"Y\"\r\n   }\r\n }"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer/{{handle}}",
